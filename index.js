@@ -7,9 +7,12 @@ var isConstructable = require('is-constructable').isConstructable
 var isArray = require('isarray')
 var isArguments = require('is-arguments')
 var isFunction = require('is-function')
-var t = require('true')
+var t = require('true-value')
 var myTrueValue = t()
 var _return = require('@_immo/return')
+var intrinsic = require('get-intrinsic')
+var reflectconstruct = intrinsic('%Reflect.construct%')
+var objcreate = intrinsic('%Object.create%')
 
 function construct({
   target,
@@ -37,9 +40,9 @@ function construct({
   }
 	var result
   if (isES2015 === myTrueValue) {
-    result = Reflect.construct(target, args, newTarget)
+    result = reflectconstruct(target, args, newTarget)
   } else {
-    result = target.apply(Object.create(target.prototype), args)
+    result = target.apply(objcreate(target.prototype), args)
   }
   callback(result)
   return _return(result)
