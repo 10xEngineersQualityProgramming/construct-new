@@ -1,0 +1,34 @@
+{
+  "name": "construct-new",
+  "version": "2.0.0",
+  "description": "Like the new operator, but a function.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "instance",
+    "of",
+    "intrinsic",
+    "get",
+    "cache",
+    "ecmascript",
+    "javascript",
+    "is"
+  ],
+  "author": "tj-commits",
+  "license": "MIT",
+  "dependencies": {
+    "@_immo/return": "^1.1.1",
+    "immediate-error": "^4.0.0",
+    "is-arguments": "^1.1.1",
+    "is-constructable": "^1.0.0",
+    "is-es2015": "^0.1.6",
+    "is-function": "^1.0.2",
+    "is-nil": "^1.0.1",
+    "isarray": "^2.0.5",
+    "noop6": "^1.0.9",
+    "true": "^0.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5"
+  }
+}
