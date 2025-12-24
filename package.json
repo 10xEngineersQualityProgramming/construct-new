@@ -1,6 +1,6 @@
 {
   "name": "construct-new",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Like the new operator, but a function.",
   "main": "index.js",
   "scripts": {},
