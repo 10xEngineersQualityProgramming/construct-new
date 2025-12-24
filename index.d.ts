@@ -5,4 +5,6 @@ type ConstructOptions = {
   callback: () => void
 }
 
-export = function construct(options: ConstructOptions): any
+function construct(options: ConstructOptions): any
+
+export = construct
