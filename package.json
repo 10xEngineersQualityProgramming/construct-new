@@ -1,6 +1,6 @@
 {
   "name": "construct-new",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Like the new operator, but a function.",
   "main": "index.js",
   "scripts": {},
@@ -22,7 +22,7 @@
     "es-logical-and-operator": "^1.0.0",
     "es-logical-not-operator": "^1.0.0",
     "identity-function": "^1.0.0",
-    "immediate-error": "^6.3.0",
+    "immediate-error": "6.4.1",
     "is-arguments": "^1.1.1",
     "is-constructable": "^1.0.0",
     "is-es2015": "^0.1.6",
