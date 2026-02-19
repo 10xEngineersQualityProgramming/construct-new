@@ -1,6 +1,6 @@
 {
   "name": "construct-new",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Like the new operator, but a function.",
   "main": "index.js",
   "scripts": {},
@@ -17,6 +17,7 @@
   "author": "tj-commits",
   "license": "MIT",
   "dependencies": {
+    "@10xly/strict-equals": "1.0.0",
     "construct-new-second": "^1.0.1",
     "es-intrinsic-cache": "^1.0.4",
     "es-logical-and-operator": "^1.0.0",
